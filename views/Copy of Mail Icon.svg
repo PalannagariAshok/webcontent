@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Mail Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_Factorie-Website_Main" transform="translate(-98.000000, -5111.000000)">
+            <g id="footer" transform="translate(0.000000, 4918.000000)">
+                <g id="Mail-Icon" transform="translate(96.000000, 189.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="22" height="22"></rect>
+                    <path d="M3,7.1817999 L3,6.2 C3,5.5372583 3.55103415,5 4.23076923,5 L17.7692308,5 C18.4489658,5 19,5.5372583 19,6.2 L19,15.8 C19,16.4627417 18.4489658,17 17.7692308,17 L4.23076923,17 C3.55103415,17 3,16.4627417 3,15.8 C3,13.3816036 3,10.9483945 3,9.73919633" id="Path" stroke="#293557" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline id="Path-8" stroke="#293557" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="3.51516733 5.33436859 11 11.0550586 18.519968 5.33436859"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Factorie Favicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.52175399,10.3129455 L14.0870135,10.3129455 L14.0870135,13.7407725 L3.52175399,13.7407725 L3.52175399,24.0242387 L0,24.0242387 L0,5.41605681 L3.52175399,5.41605681 L3.52175399,10.3129455 Z M0,0.0294792698 L14.0870135,0.0294792698 L14.0870135,3.45730134 L0,3.45730134 L0,0.0294792698 Z" id="path-1"></path>
+    </defs>
+    <g id="Factorie-Favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="32" height="32"></rect>
+        <path d="M2,0 L30,0 C31.1045695,-2.02906125e-16 32,0.8954305 32,2 L32,30 C32,31.1045695 31.1045695,32 30,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle" fill="#E95652"></path>
+        <g id="F" transform="translate(9.812500, 4.562500)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-5"></g>
+            <polygon id="Fill-4" fill="#FFFFFF" mask="url(#mask-2)" points="-1.4375 -1.43014706 15.1654779 -1.43014706 15.1654779 25.0130567 -1.4375 25.0130567"></polygon>
+        </g>
+    </g>
+</svg>

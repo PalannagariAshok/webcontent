@@ -1,0 +1,8 @@
+
+<svg viewBox="0 0 300 300" height="100%" width="100%">
+		<path d="M 280 120 L  30 120
+		         L 55 75
+	             Q 57 70 65 65
+	             L 280 25
+	             L 280 120" fill="#FACD48"/>
+</svg>

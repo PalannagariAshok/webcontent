@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="21px" viewBox="0 0 16 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Location Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_Factorie-Website_Main" transform="translate(-99.000000, -5208.000000)">
+            <g id="footer" transform="translate(0.000000, 4918.000000)">
+                <g id="Location-Icon" transform="translate(96.000000, 290.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="22" height="22"></rect>
+                    <path d="M4,8.73668829 C4.32432918,11.2567983 6.48729515,14.9341334 10.4888979,19.7686936 C10.7150599,20.0420996 11.1176947,20.0783064 11.3881267,19.8496325 C11.4171123,19.8251227 11.4438874,19.7980599 11.4681368,19.7687629 C15.8227123,14.5077677 18,10.6171421 18,8.09688619 C18,4.17738417 14.856388,1 10.978546,1 C7.90286192,1 5.28906437,2.99881676 4.33930865,5.78138015" id="Path" stroke="#293557" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <circle id="Oval" stroke="#293557" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" cx="11" cy="8" r="3"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

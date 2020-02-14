@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<image class="theimage"></image>
+<image class="theimage"></image>
+<h4>getting data online and offline</h4>
+<button id="touch">button</button>
+<script>
+/*let name ="ashok";
+const base64 = btoa(name);
+console.log(base64)
+let canvas = document.getElementById("canvas");
+let btn = document.getElementById("touch");
+let ctx = canvas.getContext('2d');
+ctx.fillStyle = "green"
+ctx.fillRect(25,25,100,100);
+ctx.fill();
+
+btn.addEventListener("click", function(){
+let data = canvas.toDataURL();
+console.log(data);
+ document.querySelector(".theimage").src = canvas.toDataURL();
+  const obj 
+})*/
+
+if(navigator.permissions){
+navigator.permissions.query({name:'geolocation'}).then(function(result) {
+     console.log(result.state);
+     function onPositionRecieved(position){
+      console.log(position)
+     }
+    if(navigator.geolocation){
+      navigator.geolocation.getCurrentPosition(onPositionRecieved)
+    }
+ 
+  // Don't do anything if the permission was denied.
+})
+};
+var navEntry = performance.getEntriesByType('navigation')[0]
+console.log(navEntry.domContentLoadedEventEnd - navEntry.domContentLoadedEventStart)
+console.log( window.performance)
+var perfData = window.performance.timing; 
+var pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+console.log(pageLoadTime)
+let getposts = () =>{ 
+  return fetch("https://jsonplaceholder.typicode.com/posts")
+  .then(res => res.json())
+  .then(res => console.log(res))
+}
+const post = {
+  name: "harsha",
+  age:21
+}
+var obj = {name:"ashok"}
+
+  let options = {
+    method: 'POST',
+    body: JSON.stringify(post),
+    headers: {
+      'Content-Type':'application/json'
+    }
+  };
+  async function call(){
+    await fetch("/posts", options)
+      .then(res => res.json())
+      .then(res => { Object.assign(obj,res);})
+      .then(response => console.log('Success:', JSON.stringify(response)))
+      .catch(error => console.error('Error:', error));
+      
+    console.log(obj)
+  }
+call();
+const source = new EventSource('/update-stream');
+ source.addEventListener('message', function(e) {
+        console.log(e.data);
+      })
+</script>
+<script src="main.js"></script>
+</body>
+</html>
